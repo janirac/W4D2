@@ -7,7 +7,7 @@ class Manager
         @employees = []
     end 
 
-    def add_employees(name)
-        @employees << name
+    def add_employees()
+        @employees << 
     end
 end 

@@ -4,10 +4,10 @@ class Manager
     attr_accessor :name, :employees
     def initialize(name)
         @name = name
-        @employees = []
+        @employees = [] #An array of the employee instances
     end 
 
-    def add_employees()
-        @employees << 
+    def add_employees(employee)
+        @employees << employee
     end
 end 

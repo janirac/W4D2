@@ -13,12 +13,12 @@ class Employee
     def bonus(multiplier)
         if self.boss.nil?
             total = 0
-            employees.each do |name|
+            employees.each do |employee|
                 total += name.salary
             end
             bonus = total * multiplier
             return bonus 
-        # elsif 
+        # elsif D
         #     self.boss
         end 
         # bonus = @salary * multiplier

@@ -1,4 +1,5 @@
 require_relative "manager"
+
 class Employee
     attr_reader :salary, :title, :name, :boss
 
@@ -17,10 +18,10 @@ class Employee
             end
             bonus = total * multiplier
             return bonus 
-        elsif 
-            self.boss
+        # elsif 
+        #     self.boss
         end 
-        bonus = @salary * multiplier
+        # bonus = @salary * multiplier
         
     end
 

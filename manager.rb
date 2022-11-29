@@ -1,9 +1,13 @@
 require_relative "employee"
 
-class Manager 
-    def initialize(employees)
+class Manager
+    attr_accessor :name, :employees
+    def initialize(name)
+        @name = name
         @employees = []
     end 
 
-    
+    def add_employees(name)
+        @employees << name
+    end
 end 
